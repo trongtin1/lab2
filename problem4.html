@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    th {
+        text-align: center;
+    }
+    textarea{
+        width: 250px;
+        height: 50px;
+    }
+</style>
+
+<body>
+    <table border="1">
+        <tr>
+            <th>Fullname*</th>
+            <td>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" size="50">
+            </td>
+        </tr>
+        <tr>
+            <th>Email*</th>
+            <td>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" size="50">
+            </td>
+        </tr>
+        <tr>
+            <th>Password*</th>
+            <td>
+                <label for="password"></label>
+                <input type="password" id="name" name="password" size="50">
+            </td>
+        </tr>
+        <tr>
+            <th>Confirm Password*</th>
+            <td>
+                <label for="ConfirmPassword"></label>
+                <input type="password" id="name" name="password" size="50">
+            </td>
+        </tr>
+        <tr>
+            <th>Phone number*</th>
+            <td>
+                <label for="phone"></label>
+                <input type="tel" id="number-phone" name="number-phone" size="50">
+            </td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>
+                <label for="Address"></label>
+                <textarea id="Address" name="Address"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td>
+                <label for="city"></label>
+                <input type="text" id="City" name="City" required placeholder="Enter your city">State
+                <label for="State"></label>
+                <input type="text" id="State" name="State" required placeholder="Enter your State">
+            </td>
+        </tr>
+        <tr>
+            <th>Zip/Postal Code</th>
+            <td>
+                <label for="Zip"></label>
+                <input type="text" id="Zip" name="Zip" required placeholder="Enter your Zip/Postal Code">
+            </td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>
+                <select id="Country" name="Country">
+                    <option value="select">Select your Country</option>
+                    <option value="US">US</option>
+                    <option value="Vietnam">VIET NAM</option>
+                    <option value="vinh long">Vinh Long</option>
+                    <option value=" ha noi">HA NOI</option>
+                    <option value="binh duong">BINH DUONG</option>
+                    <option value="ca mau">CA MAU</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Birthday:</th>
+            <td>
+                <label for="Birthday"></label>
+                <input type="date" id="date" name="date" required placeholder="mm//dd//yyyy">
+            </td>
+        </tr>
+        <tr>
+            <th>Gender:</th>
+            <td>
+                <label for="Gender"></label>
+                <select id="Gender" name="Gender">
+                    <option value="select">Gender</option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Starting date</th>
+            <td>
+                <label for="Spring">Spring</label>
+                <input type="radio" name="Spring" id="Spring">
+                <label for="Spring">Spring</label>
+                <input type="radio" name="Spring" id="Spring">
+            </td>
+        </tr>
+        <tr>
+            <th>Comments</th>
+            <td>
+                <label for="Comments"></label>
+                <textarea id="Comments" name="Comments"></textarea>
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
